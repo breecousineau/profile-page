@@ -6,7 +6,16 @@ html {
   box-sizing: inherit;
 }
 
-.banner{
-  max-width: 100%;
-  height: 300px;
+img {
+  width: 100%;
+  }
+
+.banner {
+  width: 100%;
+  height: 80vh;
+  background-color: #000;
+  background-image: ../images/bree-banner.jpg;
+  background-position: center center;
+
+
 }
