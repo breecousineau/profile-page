@@ -14,6 +14,7 @@ nav ul li a:hover {
   text-decoration: underline;
   transition-duration: 1s;
 }
+
 nav li a {
   text-decoration: none;
   color: white;
@@ -60,10 +61,14 @@ body {
 .intro img {
   max-width: 90px;
   margin-top: 1rem;
-  padding: 3em;
+  border-radius: 2rem;
 }
 
 main {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+section {
+  display: grid;
 }
