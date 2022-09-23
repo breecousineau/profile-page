@@ -10,7 +10,7 @@ nav {
   background-color: rgba(122,170,210,0.8);
 }
 
-nav ol li a:hover {
+nav ul li a:hover {
   text-decoration: underline;
   transition-duration: 1s;
 }
@@ -23,7 +23,7 @@ nav li a {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 7px 0 rgba(0,0,0,0.19);
 }
 
-nav ol {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 1.9rem 0;
@@ -31,7 +31,7 @@ nav ol {
   justify-content: center;
 }
 
-nav ol li {
+nav ul li {
   padding: 0 .7em;
 }
 
@@ -47,14 +47,20 @@ nav ol li {
 
 }
 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem;
+  gap: 1.5rem; */
 
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+.intro img {
+  max-width: 90px;
+  margin-top: 1rem;
+  padding: 3em;
 }
 
 main {
