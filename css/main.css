@@ -47,6 +47,11 @@ nav ol li {
 
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
