@@ -58,10 +58,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.intro img {
-  max-width: 90px;
+.intro .intro-img img {
+  max-width: 120px;
   margin-top: 1rem;
   border-radius: 2rem;
+
+}
+
+h2 {
+  text-align: center;
 }
 
 main {
@@ -69,6 +74,16 @@ main {
   margin: 0 auto;
 }
 
-section {
-  display: grid;
+.intro {
+  display: flex;
+}
+
+.intro-text {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.intro-img {
+  flex-basis: 0;
+  flex-grow: 1;
 }
