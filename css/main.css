@@ -6,6 +6,12 @@ html {
   box-sizing: inherit;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
 nav {
   background-color: rgba(122,170,210,0.8);
 }
@@ -48,11 +54,6 @@ nav ul li {
 
 }
 
-/* .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem; */
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -76,14 +77,15 @@ main {
 
 .intro {
   display: flex;
+  justify-content: space-between;
 }
 
-.intro-text {
+/* .intro-text {
   flex-basis: 0;
   flex-grow: 1;
-}
+} */
 
-.intro-img {
-  flex-basis: 0;
-  flex-grow: 1;
-}
+
+/* .intro-img > img {
+  max-width: 22vw;
+} */
