@@ -25,16 +25,16 @@ h2 {
   object-fit: cover;
 }
 
-.grid {
+article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-article {
+/* article {
   display: flex;
   flex-direction: column;
-}
+} */
 
 article > img {
   width: 100%;
