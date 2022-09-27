@@ -100,7 +100,8 @@ main {
   object-fit: cover;
   border-radius:10px;
   margin: auto;
-  padding: 3em;
+  padding: 2em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 7px 0 rgba(0,0,0,0.19);
 }
 
 section {
