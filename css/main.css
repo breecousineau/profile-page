@@ -16,7 +16,7 @@ img {
 }
 
 h2 {
-  text-align: center;
+  text-align: center; 
 }
 
 .intro-img {
@@ -29,17 +29,14 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  padding: 2em;
 }
-
-/* article {
-  display: flex;
-  flex-direction: column;
-} */
 
 article > img {
   width: 100%;
-  height: 5vw;
   object-fit: cover;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 7px 0 rgba(0,0,0,0.19);
+  border-radius: 1em;
 }
 
 nav {
@@ -93,7 +90,15 @@ main {
   justify-content: space-between;
 }
 
-.intro-img {
-  max-width: 15vw;
+div > .intro-img {
+  width: 100%;
+  border-radius: 5em;
+}
 
+section {
+  padding: 2em;
+}
+
+footer {
+  padding: 2em;
 }
