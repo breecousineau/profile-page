@@ -90,15 +90,17 @@ main {
 }
 
 .intro-text {
-  flex-basis: 0;
-  flex-grow: 1;
   width: 50%;
+  padding: 1em;
 }
 
 .intro-img > img {
-    max-width: 5px;
-    height: auto;
-    border-radius: 5em;
+  /* max-width: 3px;
+  /* height: auto; */
+  /* border-radius: 5em; */
+width: 15vw;
+height: 15vw;
+object-fit: cover;
 }
 
 section {
