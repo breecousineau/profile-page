@@ -98,7 +98,9 @@ main {
   width: 15vw;
   height: 15vw;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius:10px;
+  margin: auto;
+  padding: 3em;
 }
 
 section {
