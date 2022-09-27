@@ -83,11 +83,11 @@ main {
   display: flex;
   justify-content: space-between;
 }
-
+/*
 .intro-img {
   flex-basis: 0;
   flex-grow: 1;
-}
+} */
 
 .intro-text {
   width: 50%;
@@ -95,12 +95,10 @@ main {
 }
 
 .intro-img > img {
-  /* max-width: 3px;
-  /* height: auto; */
-  /* border-radius: 5em; */
-width: 15vw;
-height: 15vw;
-object-fit: cover;
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 section {
