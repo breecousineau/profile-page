@@ -102,6 +102,7 @@ main {
 section {
   padding: 2em;
   max-width: 100%;
+  gap: 2em;
 }
 
 footer {
