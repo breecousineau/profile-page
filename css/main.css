@@ -23,7 +23,7 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
-  padding: 2em;
+  padding-bottom: 5em;
 }
 
 article > img {
@@ -106,5 +106,8 @@ section {
 }
 
 footer {
-  padding: 2em;
+  text-align: center;
+  background-color: rgba(122,170,210,0.7);
+  color: #fff;
+  padding: 2rem;
 }
